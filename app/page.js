@@ -25,11 +25,7 @@ export default function Home() {
   useEffect(() => {
     setDisplayCoins(coins);
   }, [coins]);
-
-  // const handleClickedCoin = (param) => {
-  //   let clickedCoin = coins.includes((param))
-  //   setDisplayCoins(clickedCoin)
-  // }
+  // useEffect(() => {
 
   const filterCoins = (type) => {
     // const baseData = displayCoins.length ? [...displayCoins] : [...coins];
